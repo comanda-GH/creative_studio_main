@@ -1,0 +1,1249 @@
+@import "reset";
+@import "typography";
+@import "compass/css3";
+@import "compass/css3/border-radius";
+@import "susy";
+@import "compass/typography/vertical_rhythm";
+@import url(http://fonts.googleapis.com/css?family=Comfortaa&subset=latin,cyrillic,cyrillic-ext);
+
+
+@font-face {
+  font-family: "MyriadProRegular";
+  src: url("../fonts/MyriadProRegular.eot");
+  src: url("../fonts/MyriadProRegular.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/MyriadProRegular.woff") format("woff"),
+  url("../fonts/MyriadProRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@mixin gallery-radius ($color) {
+  border: 4px solid $color;
+  @include border-radius (100%);
+  behavior: url(PIE.htc);
+}
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body header, div.project-wrap  div.section-wrap, div.gallery-wrap, footer ul.footer, .wrap{
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: "Comfortaa";
+  font-weight: normal;
+  color: #FFF;
+  @include adjust-font-size-to(60px);
+  text-align: center;
+  padding: 20px 0;
+}
+
+/*----------------------------------------------------------------------------------//
+//-------------------------------------INDEX---------------------------------------//
+//----------------------------------------------------------------------------------*/
+
+
+
+//-----HEADER-----//
+
+section.header-wrap {
+  width: 100%;
+  height: 80px;
+  background-color: #FFF;
+  z-index: 100;
+  header {
+    h1 {
+      padding: 0;
+    }
+    h1, a.logo {
+      overflow: hidden;
+      width: 140px;
+      height: 80px;
+      float: left;
+      margin-left: 10px;
+    }
+
+    @media (max-width: 640px) {
+      ul.nav {
+        float: right;
+        vertical-align: middle;
+        position: absolute;
+        right: 15px;
+        top: 25px;
+        overflow: hidden;
+      }
+      ul.nav li {
+        display: none;
+
+        a {
+          font-family: Calibri;
+          @include adjust-font-size-to(20px);
+          position: inherit;
+        }
+      }
+      ul.nav li:first-child {
+        display: block;
+        background: url("../images/mobile-menu-icon.png") left center no-repeat;
+        padding: 5px 0 5px 40px;
+        span {
+          @include adjust-font-size-to(20px);
+        }
+      }
+      ul.nav:hover {
+        background-color: #CAE2F5;
+        z-index: 999;
+        @include opacity(0.85);
+        li {
+          display: block;
+          background-image: none;
+          padding: 5px;
+          a:hover {
+            text-decoration: none;
+            font-weight: bold;
+          }
+        }
+      }
+    }
+    ul.nav li a {
+      padding: 0 1px;
+    }
+    ul.nav li.main a {
+      border-bottom: 4px solid #FF9673;
+    }
+    ul.nav li.about a {
+      border-bottom: 4px solid #FFFF73;
+    }
+    ul.nav li.projects a {
+      border-bottom: 4px solid #99FF99;
+    }
+    ul.nav li.studios a {
+      border-bottom: 4px solid #73FFFF;
+    }
+    ul.nav li.timetable a {
+      border-bottom: 4px solid #7396FF;
+    }
+    ul.nav li.news a {
+      border-bottom: 4px solid #B973FF;
+    }
+    ul.nav li.affiches a {
+      border-bottom: 4px solid #FFD558;
+    }
+    ul.nav li.gallery a {
+      border-bottom: 4px solid #FF73FF;
+    }
+    ul.nav li.ask a {
+      border-bottom: 4px solid #FF7373;
+    }
+  }
+}
+main div.project-wrap div.section-wrap section.project h2 {
+  font-family: "Comfortaa";
+  font-weight: normal;
+}
+$widthsize: 231px;
+figure {
+  margin: 16px 25px;
+  img {
+    width: $widthsize;
+    height: auto;
+  }
+}
+
+.index div.project-wrap {
+  background: url("../images/backgraund.jpg") no-repeat;
+  background-size: cover;
+  padding: 10% 0;
+  overflow: hidden;
+  div.section-wrap {
+    section.project {
+      @include gallery (8 of 13);
+      text-align: center;
+      color: #FFF;
+      padding: 5% 0;
+      @media (max-width: 640px){
+        span {
+          @include adjust-font-size-to(30px);
+        }
+        h2 {
+          @include adjust-font-size-to(40px);
+        }
+        p {
+          @include adjust-font-size-to(16px);
+          @include margin-trailer;
+        }
+        a {
+          color: #FFF;
+          @include adjust-font-size-to(16px);
+          border: 1px solid #FFF;
+          padding: 5px 10px;
+          @include border-radius (10px);
+        }
+      }
+    }
+  }
+}
+div.gallery-wrap {
+  clear: both;
+  @include margin-trailer;
+  div.gallerys  {
+    text-align: center;
+  }
+  ul.top-site li.gallery figure {
+    img {
+        @include gallery-radius (#FFA7FF);
+        transition: all 0.5s ease;
+    }
+    img:hover {
+      border: 8px solid #FFA7FF;
+    }
+    figcaption {
+      color: #FFA7FF;
+      font-weight: bold;
+    }
+  }
+
+  ul.top-site li.studios figure {
+    img {
+      @include gallery-radius (#40E291);
+      transition: all 0.5s ease;
+    }
+    img:hover {
+      border: 8px solid #40E291;
+    }
+    figcaption {
+      color: #40E291;
+      font-weight: bold;
+    }
+  }
+
+  ul.top-site li.affiche figure {
+    img {
+      @include gallery-radius (#FF9673);
+      transition: all 0.5s ease;
+    }
+    img:hover {
+      border: 8px solid #FF9673;
+    }
+    figcaption {
+      color: #FF9673;
+      font-weight: bold;
+    }
+  }
+
+  ul.top-site li figure figcaption {
+    @include adjust-font-size-to(40px);
+  }
+
+  div.gallerys ul.top-site li p {
+    @include span (8 of 10);
+    float: none;
+    margin: 0 auto;
+    text-align: left;
+    font-family: "MyriadProRegular";
+    @include margin-trailer;
+  }
+
+  ul.top-site li.gallery a {
+    background-color: #FFA7FF;
+    border: 1px solid #FFA7FF;
+  }
+
+  ul.top-site li.studios a {
+    background-color: #40E291;
+    border: 1px solid #40E291;
+  }
+
+  ul.top-site li.affiche a {
+    background-color: #FF9673;
+    border: 1px solid #FF9673;
+  }
+
+  ul.top-site li a {
+    @include adjust-font-size-to(20px);
+    padding: 10px 25px;
+    @include border-radius(15px);
+    behavior: url(PIE.htc);
+    color: #FFF;
+    font-weight: bold;
+  }
+
+  ul.top-site li {
+    @include margin-trailer (2);
+  }
+}
+
+$footsize: 12px;
+footer {
+  overflow: hidden;
+  @include rhythm-padding;
+  background-image: url("../images/backgraund_foot.jpg");
+  background-size: 100% 100%;
+  padding-right: 10px;
+  span {
+    color: #FFF;
+  }
+
+  ul.footer {
+    padding: 0 10px;
+  }
+  ul.footer li.first, ul.footer li.second {
+    @media (max-width: 640px) {
+      @include gallery(5 of 10);
+    }
+    a {
+      color: #FFF;
+    }
+    ul.contacts li span, ul.contacts li a {
+      font-weight: bold;
+      @include adjust-font-size-to($footsize);
+    }
+  }
+
+  ul.footer li ul.contacts li, ul.footer li ul.social li {
+    float: none;
+    margin: 0;
+    overflow: hidden;
+  }
+  ul.social li {
+    text-align: center;
+    span.spilka, span.copyright {
+      font-weight: bold;
+      @include adjust-font-size-to($footsize);
+    }
+  }
+  ul.footer li ul.social li ul {
+    @include rhythm-margins;
+    text-align: center;
+    overflow: hidden;
+    li {
+      display: inline-block;
+      text-align: center;
+      overflow: hidden;
+    }
+    li a {
+      display: inline-block;
+      width: 42px;
+      height: 42px;
+      background-color: #7396FF;
+      border: 0px solid #7396FF;
+      @include border-radius(100%);
+      behavior: url(PIE.htc);
+    }
+
+    li.facebook, li.vk {
+
+      @media (min-width: 352px) {
+        margin-right: 5px;
+      }
+      span.fa {
+        font-size: 21px;
+        line-height: 42px;
+      }
+    }
+    li.spilka-logo {
+      margin-right: 0;
+      a {
+        vertical-align: middle;
+      }
+    }
+  }
+}
+/*----------------------------------------------------------------------------------//
+//-------------------------------------STUDIOS--------------------------------------//
+//----------------------------------------------------------------------------------*/
+.studio main {
+  h1 {
+    background: url("../images/studios_bg.jpg") no-repeat;
+    background-size: 100% 100%;
+  }
+  ul.studia {
+    overflow: hidden;
+    margin: 45px auto 30px;
+    text-align: center;
+    li {
+      margin:0 auto 40px;
+      max-width: 250px;
+      figure {
+        position: relative;
+        width: 100%;
+        padding: 1%;
+        margin-left: 0;
+      }
+      figcaption {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        @include transparent;
+        @include border-radius(100%);
+      }
+      figcaption:hover {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          @include opaque;
+        }
+      h4 {
+        position: relative;
+        top: 50px;
+        left: 10px;
+        width: 90%;
+        font-size: 1.375em;
+        color: #fff;
+      }
+    }
+    li h3 a {
+      @include adjust-font-size-to (25px);
+      line-height: 1em;
+    }
+    li.vocal {
+      h3 a {
+        color: #FF74FF;
+      }
+      img {
+        @include gallery-radius(#FF74FF);
+      }
+      figcaption:hover {
+        background: rgba(#FF73FF, .95);
+      }
+    }
+    li.choreography {
+      h3 a {
+        color: #00D86C;
+      }
+      img {
+        @include gallery-radius(#00D86C);
+      }
+      figcaption:hover {
+        background: rgba(#00D86C, .95);
+      }
+    }
+    li.leading {
+      h3 a {
+        color: #FF9775;
+      }
+      figcaption:hover {
+        background: rgba(#FF9775, .95);
+      }
+      img {
+        @include gallery-radius(#FF9775);
+      }
+    }
+    li.art {
+      h3 a {
+        color: #FFC943;
+      }
+      figcaption:hover {
+        background: rgba(#FFC943, .95);
+      }
+      img {
+        @include gallery-radius(#FFC943);
+      }
+    }
+    li.actor {
+      h3 a {
+        color: #FF7272;
+      }
+      figcaption:hover {
+        background: rgba(#FF7272, .95);
+      }
+      img {
+        @include gallery-radius(#FF7272);
+      }
+    }
+    li.english {
+      h3 a {
+        color: #00B1E6;
+      }
+      figcaption:hover {
+        background: rgba(#00B1E6, .95);
+      }
+      img {
+        @include gallery-radius(#00B1E6);
+      }
+    }
+    li.enlightenment {
+      h3 a {
+        color: #B974FF;
+      }
+      figcaption:hover {
+        background: rgba(#B974FF, .95);
+      }
+      img {
+        @include gallery-radius(#B974FF);
+      }
+    }
+    li.psyho {
+      h3 a {
+        color: #C66F71;
+      }
+      figcaption:hover {
+        background: rgba(#C66F71, .95);
+      }
+      img {
+        @include gallery-radius(#C66F71);
+      }
+    }
+    li.step {
+      h3 a {
+        color: #9BC76B;
+      }
+      figcaption:hover {
+        background: rgba(#9BC76B, .95);
+      }
+      img {
+        @include gallery-radius(#9BC76B);
+      }
+    }
+  }
+}
+.studio footer {
+  background-image: none;
+  background-color: #00B1E7;
+}
+/*----------------------------------------------------------------------------------//
+//-------------------------------------AFFICHE--------------------------------------//
+//----------------------------------------------------------------------------------*/
+.affiche main {
+  h1 {
+    background: url("../images/affiche_bg.jpg") no-repeat;
+    background-size: 100% 100%;
+  }
+  li.num {
+    border: 1px #FF9775 solid;
+    a {
+      color: #FF9775;
+    }
+  }
+  li.num.active {
+    background-color: #FF9775;
+    a {
+      color: #FFF;
+    }
+  }
+  ul.slide {
+    text-align: center;
+    margin: 25px auto;
+    overflow: hidden;
+    li {
+      display: inline-block;
+      padding: 10px 8px;
+
+      @media (max-width: 900px) {
+        display: block;
+        margin: 0 auto;
+      }
+    }
+  }
+}
+ul.numeric {
+  text-align: center;
+  margin-bottom: 40px ;
+  li {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    a {
+      line-height: 30px;
+      cursor: pointer;
+    }
+  }
+  li.num {
+    @include border-radius (100%);
+  }
+}
+.affiche footer {
+  clear: both;
+  background-image: none;
+  background-color: #FF9775;
+}
+/*----------------------------------------------------------------------------------//
+//-------------------------------------NEWS-----------------------------------------//
+//----------------------------------------------------------------------------------*/
+.new main {
+  h1 {
+    background: url("../images/news_bg.jpg") no-repeat;
+    background-size: 100% 100%;
+  }
+  li.num {
+    border: 1px #BA75FF solid;
+    a {
+      color: #BA75FF;
+    }
+  }
+  li.num.active {
+    background-color: #BA75FF;
+    a {
+      color: #FFF;
+    }
+  }
+}
+.new .listnews {
+  li {
+    margin: 45px 28px;
+  }
+  span {
+    display: block;
+    padding: 0 7px 10px;
+    @include adjust-font-size-to(16px);
+    color: #A54CFF;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold;
+    line-height: 19.1px;
+    margin-right: 40px;
+  }
+  h3 {
+    @include adjust-font-size-to(25px);
+    color: #444444;
+    margin: 0 0 10px;
+    text-align: center;
+    line-height: 1.2em;
+  }
+  p {
+    color: #444444;
+  }
+}
+@media (min-width: 480px) {
+  .new .listnews span {
+    float: left;
+    width: 65px;
+    height: 59px;
+    border: 1px #A54CFF solid;
+    @include border-radius (100%);
+    text-align: center;
+  }
+  .new .listnews h3 {
+    text-align: left;
+  }
+}
+.new footer {
+  clear: both;
+  background-image: none;
+  background-color: #BA75FF;
+}
+/*----------------------------------------------------------------------------------//
+//-----------------------------------CONTACTS---------------------------------------//
+//----------------------------------------------------------------------------------*/
+.conta {
+    h1 {
+      background: url("../images/contact_bg.jpg") no-repeat;
+      background-size: 100% 100%;
+    }
+  .map {
+    width: 100%;
+    height: 100%;
+  }
+  ul.cont_wrapp {
+    margin: 35px auto;
+    width: 100%;
+    max-width: 550px;
+    color: #444444;
+    li dt {
+      line-height: 24px;
+    }
+    ul li {
+      @include adjust-font-size-to(18px);
+      margin: 5px 0;
+    }
+    li.address {
+      dt {
+        @include adjust-font-size-to(20px);
+        font-weight: bold;
+        background: url("../images/address.png") no-repeat center left;
+        padding: 2.5px 0 2.5px 55px;
+      }
+    }
+    li.email {
+      dt {
+        font-weight: bold;
+        margin-right: 5px;
+        float: left;
+      }
+    }
+    li.mobile {
+      @include adjust-font-size-to(20px);
+      background: url("../images/mobile.png") no-repeat 6px center;
+      padding: 2.5px 0 2.5px 55px;
+    }
+    li.phone {
+      @include adjust-font-size-to(20px);
+      background: url("../images/phone.png") no-repeat center left;
+      padding: 2.5px 0 2.5px 55px;
+    }
+  }
+  footer {
+    clear: both;
+    background-image: none;
+    background-color: #FF7373;
+  }
+}
+/*----------------------------------------------------------------------------------//
+//-----------------------------------about us---------------------------------------//
+//----------------------------------------------------------------------------------*/
+.about {
+  h1 {
+    background: url("../images/about_us_bg.jpg") no-repeat;
+    background-size: 100% 100%;
+  }
+  main .wrap {
+    text-align: center;
+    max-width: 550px;
+    margin: 0 auto;
+    color: #444;
+    padding: 0 10px;
+    box-sizing: border-box;
+    h2 {
+      margin: 50px 0 20px;
+      @include adjust-font-size-to(25px);
+    }
+    img {
+      padding: 15px 0;
+    }
+    p, ul.object li {
+      line-height: 22.4px;
+    }
+    h3, ul.object {
+      color: #212121;
+    }
+    h3 {
+      @include adjust-font-size-to(20px);
+      margin-bottom: 30px;
+    }
+    ul.object li {
+      text-align: left;
+    }
+    ul.object {
+      margin-bottom: 45px;
+    }
+  }
+  footer {
+    clear: both;
+    background-image: none;
+    background-color: #FFC943;
+  }
+}
+/*----------------------------------------------------------------------------------//
+//-----------------------------------PROJECT----------------------------------------//
+//----------------------------------------------------------------------------------*/
+.proj {
+  color: #444;
+  h1 {
+    background: url("../images/project_bg.jpg") no-repeat;
+    background-size: 100% 100%;
+  }
+  div.wrap p:first-child {
+    margin-top: 30px;
+    @include adjust-font-size-to(18px);
+  }
+  .wrap {
+    li, h3 {
+      text-align: center;
+    }
+    ul.project-list li p {
+      text-align: left;
+      line-height: 22.4px;
+    }
+    h3 {
+      margin-bottom: 10px;
+      @include adjust-font-size-to(20px);
+      text-align: center;
+      width: 50%;
+    }
+    li {
+      margin: 10px auto;
+    }
+
+  }
+  footer {
+    clear: both;
+    background-image: none;
+    background-color: #29B14D;
+  }
+}
+/*----------------------------------------------------------------------------------//
+//-----------------------------------GALLERY----------------------------------------//
+//----------------------------------------------------------------------------------*/
+.gal main {
+  h1 {
+    background: url("../images/gallery_v_bg.jpg") no-repeat;
+    background-size: 100% 100%;
+  }
+  li.num {
+    border: 1px #FDA1DF solid;
+    a {
+      color: #FDA1DF;
+    }
+  }
+  li.num.active {
+    background-color: #FDA1DF;
+    a {
+      color: #FFF;
+    }
+  }
+  ul.gal_list {
+    @media (min-width: 420px) {
+      text-align: center;
+      li {
+        display: inline-block;
+        width: 200px;
+      }
+    }
+    overflow: hidden;
+    margin: 45px auto 30px;
+    text-align: center;
+    li {
+      margin: 0 auto 40px;
+      max-width: 200px;
+      a {
+        position: relative;
+        display: inline-block;
+        width: 100%;
+        padding: 1%;
+        margin-left: 0;
+        img {
+          width: 100%;
+        }
+        cursor: pointer;
+      }
+        h4 {
+          position: absolute;
+          top: 45px;
+          left: 15px;
+          width: 90%;
+          font-size: 1.375em;
+          color: #fff;
+          @include adjust-font-size-to(20px);
+        }
+        p {
+          @include adjust-font-size-to(14px);
+          color: #fff;
+          position: absolute;
+          width: 164px;
+          top: 80px;
+          left: 20px;
+        }
+
+    }
+    li.photo a {
+      background: url("../images/photo.png") no-repeat center 80px;
+      p {
+        top: 80px;
+        left: 20px;
+      }
+    }
+    li.video a {
+      background: url("../images/video.png") no-repeat center 80px;
+    }
+  } //end ul.gal_list
+  p.filter {
+    color: #999;
+    @include adjust-font-size-to(20px);
+    text-align: center;
+  }
+  ul.years {
+    text-align: center;
+    margin: 20px auto 30px;
+    li a {
+      color: #FDA1DF;
+      cursor: pointer;
+    }
+    li {
+      width: 133px;
+      padding: 15px 30px;
+      border: 2px solid #FDA1DF;
+      border-radius: 10px;
+      margin: 10px auto;
+      overflow: hidden;
+    }
+    li.prew, li.next {
+      display: none;
+    }
+    li.active {
+      background-color: #FDA1DF;
+      a {
+        color: #FFF;
+      }
+    }
+  }
+  @media (min-width: 420px) {
+    ul.years {
+      li {
+        display: inline-block;
+        margin: 10px 5px 0;
+      }
+      li.prew, li.next {
+        display: inline-block;
+        width: 25px;
+        padding: 0;
+        border: 0;
+        margin-top: 0;
+        a {
+          font-size: 43px;
+          vertical-align: middle;
+          text-decoration: none;
+        }
+      }
+      li.next {
+        margin: 10px 0 0;
+        width: 35px;
+      }
+    }
+  } /*end media 420*/
+  ul.sample, ul.sample_ph {
+    text-align: center;
+    li iframe {
+      width: 381px;
+      height: 254px;
+    }
+    li {
+      margin: 5px auto;
+      text-align: center;
+      max-width: 384px;
+      display: inline-block;
+    }
+  }
+
+} //end main
+.s_vocal, .s_enlightenment, .s_english, .s_psyho, .s_leading, .s_art, .s_choreography, .s_step, .s_actor {
+  h1 {
+    @media (max-width: 450px) {
+      @include adjust-font-size-to(42px);
+    }
+  }
+  .bg_wrapp {
+    width: 100%;
+    margin-top: 10px;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .wrap {
+    p.general_vocal, p.general_enlightenment, p.general_english, p.general_psyho, p.general_leading, p.general_art, p.general_choreography, p.general_step, p.general_actor {
+      text-align: center;
+      margin: 20px auto 35px;
+      color: #444;
+      line-height: 22.4px;
+    }
+    h3 {
+      color: #444;
+      @include adjust-font-size-to(25px);
+      text-align: center;
+    }
+    figure {
+      text-align: center;
+    }
+    img {
+      text-align: center;
+      width: 100%;
+      max-width: 170px;
+    }
+    figcaption {
+      color: #333;
+      @include adjust-font-size-to(20px);
+      text-align: center;
+      padding: 20px 0 5px;
+      font-weight: bold;
+    }
+    h4 {
+      text-align: center;
+      color: #444;
+      font-weight: normal;
+      @include adjust-font-size-to(20px);
+    }
+    ul.teacher li p {
+      text-align: center;
+      color: #444;
+    }
+    ul.teacher {
+      margin-bottom: 20px;
+      overflow: hidden;
+    }
+  }
+  footer {
+    clear: both;
+    background-image: none;
+  }
+}
+
+/*----------------------------------------------------------------------------------//
+//--------------------------------Vocal studia--------------------------------------//
+//----------------------------------------------------------------------------------*/
+.s_vocal {
+  h1 {
+    background: url("../images/s_vocal_bg.jpg") no-repeat;
+    background-size: 100% 100%;
+  }
+  .wrap {
+    p.general_vocal {
+      max-width: 478px;
+    }
+  }
+  footer {
+    background-color: #FDA1DF;
+  }
+}
+/*----------------------------------------------------------------------------------//
+//--------------------------enlightenment studia------------------------------------//
+//----------------------------------------------------------------------------------*/
+.s_enlightenment {
+  h1 {
+    background: url("../images/enlightenment_bg.jpg") no-repeat;
+    background-size: 100% 100%;
+  }
+  .wrap {
+    p.general_enlightenment {
+      max-width: 575px;
+    }
+  }
+  footer {
+    background-color: #BA75FF;
+  }
+}
+/*----------------------------------------------------------------------------------//
+//-----------------------------English studia---------------------------------------//
+//----------------------------------------------------------------------------------*/
+.s_english {
+  h1 {
+    background: url("../images/english_bg.jpg") no-repeat;
+    background-size: 100% 100%;
+  }
+  .wrap {
+    p.general_enlightenment {
+      max-width: 513px;
+    }
+  }
+  footer {
+    background-color: #00B1E7;
+  }
+}
+/*----------------------------------------------------------------------------------//
+//-----------------------------psyho studia-----------------------------------------//
+//----------------------------------------------------------------------------------*/
+.s_psyho {
+  h1 {
+    background: url("../images/psyho_bg.jpg") no-repeat;
+    background-size: 100% 100%;
+  }
+  .wrap {
+    p.general_psyho {
+      max-width: 513px;
+    }
+  }
+  footer {
+    background-color: #C66F71;
+  }
+}
+/*----------------------------------------------------------------------------------//
+//-----------------------------leading studia---------------------------------------//
+//----------------------------------------------------------------------------------*/
+.s_leading {
+  h1 {
+    background: url("../images/leading_bg.jpg") no-repeat;
+    background-size: 100% 100%;
+  }
+  .wrap {
+    p.general_leading {
+      max-width: 468px;
+    }
+  }
+  footer {
+    clear: both;
+    background-image: none;
+    background-color: #FF9775;
+  }
+}
+/*----------------------------------------------------------------------------------//
+//---------------------------------art studia---------------------------------------//
+//----------------------------------------------------------------------------------*/
+.s_art {
+  h1 {
+    background: url("../images/art_bg.jpg") no-repeat;
+    background-size: 100% 100%;
+  }
+  .bg_wrapp {
+    margin-top: 0;
+  }
+  .wrap {
+    margin-top: -20px;
+    p.general_art {
+      max-width: 513px;
+      margin-top: 0;
+    }
+  }
+  strong {
+    display: block;
+  }
+  footer {
+    clear: both;
+    background-image: none;
+    background-color: #FFC943;
+  }
+}
+/*----------------------------------------------------------------------------------//
+//----------------------------choreography studia-----------------------------------//
+//----------------------------------------------------------------------------------*/
+.s_choreography {
+  h1 {
+    background: url("../images/choreography_bg.jpg") no-repeat;
+    background-size: 100% 100%;
+  }
+  .bg_wrapp {
+    margin-top: 0;
+  }
+  .wrap {
+    p.general_choreography {
+      max-width: 513px;
+      margin-top: 0;
+    }
+  }
+  footer {
+    clear: both;
+    background-image: none;
+    background-color: #3FE291;
+  }
+}
+/*----------------------------------------------------------------------------------//
+//--------------------------------step studia---------------------------------------//
+//----------------------------------------------------------------------------------*/
+.s_step {
+  h1 {
+    background: url("../images/step_bg.jpg") no-repeat;
+    background-size: 100% 100%;
+  }
+  .bg_wrapp {
+    margin-top: 0;
+  }
+  .wrap {
+    p.general_step {
+      max-width: 513px;
+    }
+  }
+  strong {
+    display: block;
+  }
+  footer {
+    clear: both;
+    background-image: none;
+    background-color: #9BC76B;
+  }
+}
+/*----------------------------------------------------------------------------------//
+//-------------------------------actor studia---------------------------------------//
+//----------------------------------------------------------------------------------*/
+.s_actor {
+  h1 {
+    background: url("../images/actor_bg.jpg") no-repeat;
+    background-size: 100% 100%;
+  }
+  .bg_wrapp {
+    margin-top: 0;
+  }
+  .wrap {
+    p.general_actor {
+      max-width: 526px;
+      margin-top: 0;
+    }
+  }
+  footer {
+    clear: both;
+    background-image: none;
+    background-color: #FF7373;
+  }
+}
+/*----------------------------------------------------------------------------------//
+//-------------------------------graph studia---------------------------------------//
+//----------------------------------------------------------------------------------*/
+.graph {
+  main {
+    box-sizing: border-box;
+    margin: 0 5px;
+  }
+  h1 {
+    background: url("../images/graph_bg.jpg") no-repeat;
+    background-size: 100% 100%;
+  }
+
+  table {
+    width: 100%;
+    max-width: 840px;
+    border-collapse: collapse;
+    margin: 50px auto;
+    tr td {
+      border: 1px solid #CCC;
+      width: 9.4%;
+      text-align: center;
+      @media (max-width: 460px) {
+        font-size: 10px;
+      }
+      @media (max-width: 768px) {
+        font-size: 12px;
+      }
+    }
+    tr.day td {
+      border: none;
+    }
+    tr td.name {
+      width: 34.1%;
+      text-align: left;
+      font-size: 16px;
+      padding: 10px 0 10px 10px;
+    }
+    @media (max-width: 460px) {
+      font-size: 12px;
+    }
+    @media (max-width: 768px) {
+      font-size: 14px;
+    }
+    td span.true {
+      width: 20px;
+      height: 20px;
+      @include border-radius (100%);
+      display: inline-block;
+      vertical-align: middle;
+      margin-right: 10px;
+    }
+    tr.vocal .true {
+      background-color: #FF74FF;
+    }
+    tr.choreography .true {
+      background-color: #B4F3D3;
+    }
+    tr.leading .true {
+      background-color: #FFCCBB;
+    }
+    tr.art .true {
+      background-color: #FFE7A6;
+    }
+    tr.actor .true {
+      background-color: #FFBBBB;
+    }
+    tr.english .true {
+      background-color: #95E8FF;
+    }
+    tr.enlightenment .true {
+      background-color: #DDBBFF;
+    }
+    tr.psyho .true {
+      background-color: #E3B9BA;
+    }
+    tr.step .true {
+      background-color: #C0DCA3;
+    }
+  }
+  footer {
+    clear: both;
+    background-image: none;
+    background-color: #7496FF;
+  }
+}

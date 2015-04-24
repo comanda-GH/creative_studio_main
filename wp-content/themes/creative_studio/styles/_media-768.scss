@@ -1,0 +1,46 @@
+@import "susy";
+@import "typography";
+@import "compass/css3";
+
+@media (min-width: 700px) {
+  section.header-wrap header.fix ul.nav a {
+    @include adjust-font-size-to(12px);
+  }
+}
+@media (min-width: 769px) {
+  section.header-wrap header.fix ul.nav a {
+    @include adjust-font-size-to(15px);
+  }
+}
+
+@media (min-width: 769px) {
+  section.header-wrap header.fix ul.nav li {
+
+  }
+}
+@media (min-width: 768px) {
+  .gal main .wrap ul.sample li  {
+    margin: 10px;
+  }
+}
+
+@media (min-width: 768px) {
+  .s_choreography {
+    .wrap {
+      margin-top: -20px;
+      p.general_choreography {
+        max-width: 513px;
+      }
+    }
+  }
+}
+@media (min-width: 768px) {
+  .s_actor {
+    .wrap {
+      margin-top: -20px;
+      p.general_actor {
+        max-width: 513px;
+      }
+    }
+  }
+}
