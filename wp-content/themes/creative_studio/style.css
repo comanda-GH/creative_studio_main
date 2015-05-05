@@ -160,39 +160,39 @@ section.header-wrap header h1, section.header-wrap header a.logo {
 section.header-wrap header ul.nav li a:hover{
     padding: 0 1px;
 }
-section.header-wrap header ul.nav li.menu-item-31 a:hover  {
+section.header-wrap header ul.nav li.menu-item-31 a  {
     border-bottom: 4px solid #FF9673;
 }
 /*about us*/
-section.header-wrap header ul.nav li.menu-item-38 a:hover  {
+section.header-wrap header ul.nav li.menu-item-38 a  {
     border-bottom: 4px solid #FFFF73;
 }
 /*projects*/
-section.header-wrap header ul.nav li.menu-item-39 a:hover  {
+section.header-wrap header ul.nav li.menu-item-39 a  {
     border-bottom: 4px solid #99FF99;
 }
 /*studios*/
-section.header-wrap header ul.nav li.menu-item-40 a:hover  {
+section.header-wrap header ul.nav li.menu-item-40 a  {
     border-bottom: 4px solid #73FFFF;
 }
 /*affishi*/
-section.header-wrap header ul.nav li.menu-item-33 a:hover  {
+section.header-wrap header ul.nav li.menu-item-33 a  {
     border-bottom: 4px solid #FF9673;
 }
 /*grafic*/
-section.header-wrap header ul.nav li.menu-item-35 a:hover  {
+section.header-wrap header ul.nav li.menu-item-35 a  {
     border-bottom: 4px solid  #7396FF;
 }
 /*news*/
-section.header-wrap header ul.nav li.menu-item-37 a:hover  {
+section.header-wrap header ul.nav li.menu-item-37 a  {
     border-bottom: 4px solid  #B973FF;
 }
 /*gallery*/
-section.header-wrap header ul.nav li.menu-item-34 a:hover  {
+section.header-wrap header ul.nav li.menu-item-34 a  {
     border-bottom: 4px solid #FF73FF;
 }
 /*contacts*/
-section.header-wrap header ul.nav li.menu-item-36 a:hover  {
+section.header-wrap header ul.nav li.menu-item-36 a  {
     border-bottom: 4px solid #FF7373;
 }
 /********************end color line menu***********************/
@@ -921,6 +921,35 @@ nav.pagination h2 {
   margin-top: 30px;
   font-size: 1.125em;
   line-height: 1.33333em;
+    text-align: justify;
+}
+.proj .project-list li {
+    overflow: hidden;
+    margin: 34px 0;
+
+}
+
+.proj .project-list li.box-1  h2,
+.proj .project-list li.box-1 p/*.open_world h3, .proj .project-list .open_world p, .proj .project-list .step h3, .proj .project-list .step p, .proj .project-list .play h3, .proj .project-list .play p, .proj .project-list .ruler h3, .proj .project-list .ruler p*/ {
+
+    max-width: 480px;
+    text-align: left;
+    line-height: 22.4px;
+    text-align: justify;
+}
+.proj .project-list li.box  img {
+    float: left;
+}
+.proj .project-list li.box  img {
+    float: right;
+}
+.proj .project-list li.box h2,
+.proj .project-list li.box p/*.open_world img, .proj .project-list .step img, .proj .project-list .play img, .proj .project-list .ruler img*/ {
+    float: left;
+    padding: 15px 15px;
+    max-width: 480px;
+    line-height: 22.4px;
+    text-align: justify;
 }
 .proj .wrap figure {
     height: 250px;
@@ -936,9 +965,8 @@ nav.pagination h2 {
     padding: 0px 0px 0px 10px;
 }
 .proj .wrap ul.project-list figure p {
-    text-align: left;
+    text-align: justify;
     line-height: 22.4px;
-    text-align: left;
     padding: 30px 0px 0px 0px;
 }
 .proj .wrap h3 {
@@ -1064,6 +1092,10 @@ nav.pagination h2 {
 }
 .gal main ul.years li.active a {
   color: #FFF;
+}
+.gal footer{
+    background-image: none;
+    background-color: #FDA1DF;
 }
 @media (min-width: 420px) {
   .gal main ul.years li {
@@ -1545,7 +1577,10 @@ html {
     -webkit-border-radius: 10px;
     border-radius: 10px;
   }
-
+    div.gallery-wrap nav h3 {
+        font-size: 1.25em;
+        line-height: 1.2em;
+    }
   div.gallery-wrap div.gallerys ul.top-site {
     margin: 0 10px;
     overflow: hidden;
@@ -1665,7 +1700,14 @@ html {
     overflow: hidden;
     margin: 34px 0;
   }
-  .proj .project-list .open_world h3, .proj .project-list .open_world p, .proj .project-list .step h3, .proj .project-list .step p, .proj .project-list .play h3, .proj .project-list .play p, .proj .project-list .ruler h3, .proj .project-list .ruler p {
+    .proj .project-list p.wp-caption-text {
+        display:none;
+    }
+    .proj .project-list li.box-1 p{
+        margin:-215px 0px;
+    }
+    .proj .project-list li.box-1  h2,
+    .proj .project-list li.box-1 p /*open_world h3, .proj .project-list .open_world p, .proj .project-list .step h3, .proj .project-list .step p, .proj .project-list .play h3, .proj .project-list .play p, .proj .project-list .ruler h3, .proj .project-list .ruler p*/ {
     float: right;
   }
   .proj .project-list .open_world img, .proj .project-list .step img, .proj .project-list .play img, .proj .project-list .ruler img {
@@ -1675,13 +1717,14 @@ html {
 }
 @media (min-width: 641px) and (min-width: 768px) {
   .proj .project-list .open_world img, .proj .project-list .step img, .proj .project-list .play img, .proj .project-list .ruler img {
-    padding: 0 45px;
+    /*padding: 0 45px;*/
   }
 }
 @media (min-width: 641px) {
   .proj .project-list .open_world p, .proj .project-list .step p, .proj .project-list .play p, .proj .project-list .ruler p {
     width: 50%;
   }
+
   .proj .project-list .future h3, .proj .project-list .future p, .proj .project-list .together h3, .proj .project-list .together p, .proj .project-list .road h3, .proj .project-list .road p {
     float: left;
   }
@@ -1692,14 +1735,16 @@ html {
 }
 @media (min-width: 641px) and (min-width: 768px) {
   .proj .project-list .future img, .proj .project-list .together img, .proj .project-list .road img {
-    padding: 0 45px;
+    /*padding: 0 45px;*/
   }
 }
 @media (min-width: 641px) {
   .proj .project-list .future p, .proj .project-list .together p, .proj .project-list .road p {
     width: 50%;
   }
-
+    .proj .project-list .future p.wp-caption-text {
+        display:none;
+    }
   .s_67 .teacher li {
     width: 33.28886%;
     float: left;
@@ -1762,6 +1807,9 @@ html {
 }
 @media (min-width: 900px) {
   .proj .project-list .open_world img, .proj .project-list .step img, .proj .project-list .play img, .proj .project-list .ruler img {
-    padding: 0 70px;
+    /*padding: 0 70px;*/
   }
+}
+.caroufredsel_wrapper {
+    display:none;
 }

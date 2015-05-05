@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Just another WordPress site">
+    <meta name="keywords" content="Творча, майстерня,Черкаси">
+    <title>Creative Studio</title>
+
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link href='http://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet' type='text/css'>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script src="http://creative_studio.home/wp-content/themes/creative_studio/js/jquery.min.js" ></script>
+    <script src="http://creative_studio.home/wp-content/themes/creative_studio/js/nav.js"></script>
+    <link rel="alternate" type="application/rss+xml" title="Creative Studio &raquo; Головна Comments Feed" href="http://creative_studio.home/?feed=rss2&#038;page_id=44" />
+<link rel='stylesheet' id='open-sans-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&#038;subset=latin%2Clatin-ext&#038;ver=4.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='dashicons-css'  href='http://creative_studio.home/wp-includes/css/dashicons.min.css?ver=4.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='admin-bar-css'  href='http://creative_studio.home/wp-includes/css/admin-bar.min.css?ver=4.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wa_chpcs_style-css'  href='http://creative_studio.home/wp-content/plugins/carousel-horizontal-posts-content-slider/assets/css/custom-style.css?ver=4.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='creative_studio-style-css'  href='http://creative_studio.home/wp-content/themes/creative_studio/style.css?ver=4.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='font-style-css'  href='http://fonts.googleapis.com/css?family=Comfortaa&#038;ver=4.1.1' type='text/css' media='all' />
+<script type='text/javascript' src='http://creative_studio.home/wp-includes/js/jquery/jquery.js?ver=1.11.1'></script>
+<script type='text/javascript' src='http://creative_studio.home/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://creative_studio.home/wp-content/plugins/carousel-horizontal-posts-content-slider/assets/js/caroufredsel/jquery.transit.min.js?ver=4.1.1'></script>
+<script type='text/javascript' src='http://creative_studio.home/wp-content/plugins/carousel-horizontal-posts-content-slider/assets/js/caroufredsel/jquery.carouFredSel-6.2.1-packed.js?ver=4.1.1'></script>
+<script type='text/javascript' src='http://creative_studio.home/wp-content/plugins/carousel-horizontal-posts-content-slider/assets/js/caroufredsel/jquery.touchSwipe.min.js?ver=4.1.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var chpcsArgs = {"auto_scroll":"false","circular":"false","easing_effect":"linear","item_align":"center","direction":"left","touch_swipe":"false","item_width":"180","time_out":"3000","css_transition":"false","infinite":"true","fx":"scroll"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://creative_studio.home/wp-content/plugins/carousel-horizontal-posts-content-slider/assets/js/script.js?ver=4.1.1'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://creative_studio.home/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://creative_studio.home/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.1.1" />
+<link rel='canonical' href='http://creative_studio.home/' />
+<link rel='shortlink' href='http://creative_studio.home/' />
+<style type="text/css" media="print">#wpadminbar { display:none; }</style>
+<style type="text/css" media="screen">
+	html { margin-top: 32px !important; }
+	* html body { margin-top: 32px !important; }
+	@media screen and ( max-width: 782px ) {
+		html { margin-top: 46px !important; }
+		* html body { margin-top: 46px !important; }
+	}
+</style>
+</head>
+
+
+<body class="index">
+<section class="header-wrap">
+    <header class="fix">
+        <a class="logo" href="/">
+            <img src="http://creative_studio.home/wp-content/themes/creative_studio/images/logo.png" alt="Creative Studio">
+            Creative Studio        </a>
+        <div class="menu-main-container"><ul id="menu-main" class="nav"><li id="menu-item-38" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-38"><a href="http://creative_studio.home/?page_id=4">Про нас</a></li>
+<li id="menu-item-39" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-39"><a href="http://creative_studio.home/?page_id=6">Проекти</a></li>
+<li id="menu-item-40" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-40"><a href="http://creative_studio.home/?page_id=8">Студії</a></li>
+<li id="menu-item-33" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33"><a href="http://creative_studio.home/?page_id=14">Афіші</a></li>
+<li id="menu-item-35" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-35"><a href="http://creative_studio.home/?page_id=10">Графік занять</a></li>
+<li id="menu-item-37" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-37"><a href="http://creative_studio.home/?page_id=12">Новини</a></li>
+<li id="menu-item-34" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-34"><a href="http://creative_studio.home/?page_id=16">Галерея</a></li>
+<li id="menu-item-36" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36"><a href="http://creative_studio.home/?page_id=18">Контакти</a></li>
+</ul></div>
+    </header>
+</section>
+
+
+<!-- header -->
+
+<main>
+    <div class="project-wrap">
+        <div class="section-wrap">
+            <section class="project">
+                <span>Проект</span>
+                <h2>“Відкрий в собі зірку”</h2>
+                <p>З нами ваша дитина розкриє свій потенціал!</p>
+                <a href="#">Дізнатися більше</a>
+            </section>
+        </div>
+    </div>
+    <div class="gallery-wrap">
+        <div class="gallerys">
+
+            <ul class="top-site">
+<li class="gallery">
+<div id="attachment_42" style="width: 244px" class="wp-caption alignnone"><a href="http://creative_studio.home/wp-content/uploads/2015/03/gallery.png"><img class="size-full wp-image-42" src="http://creative_studio.home/wp-content/uploads/2015/03/gallery.png" alt="Галерея" width="234" height="236" /></a><p class="wp-caption-text">Галерея</p></div>
+<p>Lorem ipsumLorem ipsum dolor sit amet consectetur a dipisicing elit sed.Lorem ipsum dolor sit amet, consectetur adipisicing<br />
+elit, sed do eiusmod Incididunt abore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+<p><a class="more" title="Галерея" href="http://creative_studio.home/?page_id=16">Детальніше</a></li>
+<li class="studios">
+<div id="attachment_54" style="width: 246px" class="wp-caption alignnone"><a href="http://creative_studio.home/wp-content/uploads/2015/03/studios.png"><img class="size-full wp-image-54" src="http://creative_studio.home/wp-content/uploads/2015/03/studios.png" alt="Судії" width="236" height="233" /></a><p class="wp-caption-text">Судії</p></div>
+<p>Lorem ipsum dolor sit amet consectetur a dipisicing elit sed.Lorem ipsum dolor sit amet, consectetur adipisicing<br />
+elit, sed do eiusmod Incididunt abore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+<p><a class="more" title="Студії" href="http://creative_studio.home/?page_id=8">Детальніше</a></li>
+<li class="affiche">
+<div id="attachment_56" style="width: 245px" class="wp-caption alignnone"><a href="?page_id=14"><img class="wp-image-56 size-full" title="Афіші" src="http://creative_studio.home/wp-content/uploads/2015/03/affiche.png" alt="Афіші" width="235" height="235" /></a><p class="wp-caption-text">Афіші</p></div>
+<p>Lorem ipsum dolor sit amet consectetur a dipisicing elit sed.Lorem ipsum dolor sit amet, consectetur adipisicing<br />
+elit, sed do eiusmod Incididunt abore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+<p><a class="more" title="Афіші" href="http://creative_studio.home/?page_id=14">Детальніше</a></li>
+</ul>
+
+                	<style>
+
+	
+	.chpcs_foo_content img {
+
+		max-width: 180;
+	}
+
+			.chpcs_image_carousel .chpcs_prev, .chpcs_image_carousel .chpcs_next{
+
+			background: rgba(168, 32, 32, 0);
+
+			color: rgb(0, 0, 0);
+
+			font-size: 32px;
+
+			line-height: 39px;
+
+			width: 42px;
+
+			height: 42px;
+
+			margin-top: -32px;
+
+		}
+
+		.chpcs_image_carousel.chpcs_prev:hover, .chpcs_image_carousel .chpcs_next:hover {
+
+			color: rgb(170, 170, 170);
+
+		}
+
+		#wa_chpcs_pager a {
+
+			background: rgb(170, 170, 170);
+
+		}
+
+	</style>
+
+	<div class="chpcs_image_carousel"><div id="wa_chpc_slider" style="height:350px; overflow: hidden;"><div class="chpcs_foo_content" style="width:180px; height:350px;"><br/><span class="chpcs_title"><a  style=" text-decoration:none;" href="http://creative_studio.home/?p=99">Зміна розкладу студії.</a></span><br/><p><span class="chpcs_foo_con">Заняття вокальної студії будуть проходити по вівторках о 18:00.</span></p></div><div class="chpcs_foo_content" style="width:180px; height:350px;"><br/><span class="chpcs_title"><a  style=" text-decoration:none;" href="http://creative_studio.home/?p=103">Нова студія “Перші кроки”</a></span><br/><p><span class="chpcs_foo_con">Нова студія раннього розвитку дітей почне працювати з 1 травня 2015 р. “Перші кроки” допоможуть&hellip;</span></p></div><div class="chpcs_foo_content" style="width:180px; height:350px;"><br/><span class="chpcs_title"><a  style=" text-decoration:none;" href="http://creative_studio.home/?p=105">Свято 8 Березня.</a></span><br/><p><span class="chpcs_foo_con">Святкування буде проходити в палаці “Дружби Народів” о 10:00 8 березня 2015 р. Запршуємо всіх&hellip;</span></p></div></div><div class="chpcs_clearfix"></div><a class="chpcs_prev" id="wa_chpc_slider_prev" href="#"><span>‹</span></a><a class="chpcs_next" id="wa_chpc_slider_next" href="#"><span>›</span></a><div class="chpcs_pagination" id="wa_chpcs_pager"></div></div>
+        </div>
+
+        	<style>
+
+	
+	.chpcs_foo_content img {
+
+		max-width: 180;
+	}
+
+			.chpcs_image_carousel .chpcs_prev, .chpcs_image_carousel .chpcs_next{
+
+			background: rgba(168, 32, 32, 0);
+
+			color: rgb(0, 0, 0);
+
+			font-size: 32px;
+
+			line-height: 39px;
+
+			width: 42px;
+
+			height: 42px;
+
+			margin-top: -32px;
+
+		}
+
+		.chpcs_image_carousel.chpcs_prev:hover, .chpcs_image_carousel .chpcs_next:hover {
+
+			color: rgb(170, 170, 170);
+
+		}
+
+		#wa_chpcs_pager a {
+
+			background: rgb(170, 170, 170);
+
+		}
+
+	</style>
+
+	<div class="chpcs_image_carousel"><div id="wa_chpc_slider" style="height:350px; overflow: hidden;"><div class="chpcs_foo_content" style="width:180px; height:350px;"><br/><span class="chpcs_title"><a  style=" text-decoration:none;" href="http://creative_studio.home/?p=99">Зміна розкладу студії.</a></span><br/><p><span class="chpcs_foo_con">Заняття вокальної студії будуть проходити по вівторках о 18:00.</span></p></div><div class="chpcs_foo_content" style="width:180px; height:350px;"><br/><span class="chpcs_title"><a  style=" text-decoration:none;" href="http://creative_studio.home/?p=103">Нова студія “Перші кроки”</a></span><br/><p><span class="chpcs_foo_con">Нова студія раннього розвитку дітей почне працювати з 1 травня 2015 р. “Перші кроки” допоможуть&hellip;</span></p></div><div class="chpcs_foo_content" style="width:180px; height:350px;"><br/><span class="chpcs_title"><a  style=" text-decoration:none;" href="http://creative_studio.home/?p=105">Свято 8 Березня.</a></span><br/><p><span class="chpcs_foo_con">Святкування буде проходити в палаці “Дружби Народів” о 10:00 8 березня 2015 р. Запршуємо всіх&hellip;</span></p></div></div><div class="chpcs_clearfix"></div><a class="chpcs_prev" id="wa_chpc_slider_prev" href="#"><span>‹</span></a><a class="chpcs_next" id="wa_chpc_slider_next" href="#"><span>›</span></a><div class="chpcs_pagination" id="wa_chpcs_pager"></div></div>    </div>
+   <!-- <div class="custom">
+            </div>-->
+</main>
+<!--footer-->
+<!--content-->
+<footer>
+    <ul class="footer">
+        <li class="first">
+            <img src="http://creative_studio.home/wp-content/themes/creative_studio/images/logo_foot.png" alt="Творча майстерня"/>
+            <ul class="contacts">
+                <li><span>Проект “Відкрий в собі зірку”</span></li>
+                <li><a href="tel:+380472636424">тел. 0472636424</a></li>
+                <li><a href="tel:+380673892551">моб. 0673892551</a></li>
+                <li><a href="mailto:youth-organization@mail.ru">e-mail youth-organization@mail.ru</a></li>
+            </ul>
+        </li>
+
+        <li class="second">
+            <ul class="social">
+                <li>
+                    <span class="spilka">Спілка дитячих та юнацьких організацій Черкащини</span>
+                </li>
+                <li>
+                    <ul>
+                        <li class="facebook">
+                            <a href="#">
+                                <span class="fa fa-facebook"></span>
+                            </a>
+                        </li>
+                        <li class="vk">
+                            <a href="#">
+                                <span class="fa fa-vk"></span>
+                            </a>
+                        </li>
+                        <li class="spilka-logo">
+                            <a href="#">
+                                <img src="http://creative_studio.home/wp-content/themes/creative_studio/images/spilka.png" alt="Спілка"/>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <span class="copyright">Powered by Geekhub</span>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</footer>
+<script type='text/javascript' src='http://creative_studio.home/wp-includes/js/admin-bar.min.js?ver=4.1.1'></script>
+	<script type="text/javascript">
+		(function() {
+			var request, b = document.body, c = 'className', cs = 'customize-support', rcs = new RegExp('(^|\\s+)(no-)?'+cs+'(\\s+|$)');
+
+			request = true;
+
+			b[c] = b[c].replace( rcs, ' ' );
+			b[c] += ( window.postMessage && request ? ' ' : ' no-' ) + cs;
+		}());
+	</script>
+			<div id="wpadminbar" class="nojq nojs" role="navigation">
+			<a class="screen-reader-shortcut" href="#wp-toolbar" tabindex="1">Skip to toolbar</a>
+			<div class="quicklinks" id="wp-toolbar" role="navigation" aria-label="Top navigation toolbar." tabindex="0">
+				<ul id="wp-admin-bar-root-default" class="ab-top-menu">
+		<li id="wp-admin-bar-wp-logo" class="menupop"><a class="ab-item"  aria-haspopup="true" href="http://creative_studio.home/wp-admin/about.php" title="About WordPress"><span class="ab-icon"></span></a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-wp-logo-default" class="ab-submenu">
+		<li id="wp-admin-bar-about"><a class="ab-item"  href="http://creative_studio.home/wp-admin/about.php">About WordPress</a>		</li></ul><ul id="wp-admin-bar-wp-logo-external" class="ab-sub-secondary ab-submenu">
+		<li id="wp-admin-bar-wporg"><a class="ab-item"  href="https://wordpress.org/">WordPress.org</a>		</li>
+		<li id="wp-admin-bar-documentation"><a class="ab-item"  href="http://codex.wordpress.org/">Documentation</a>		</li>
+		<li id="wp-admin-bar-support-forums"><a class="ab-item"  href="https://wordpress.org/support/">Support Forums</a>		</li>
+		<li id="wp-admin-bar-feedback"><a class="ab-item"  href="https://wordpress.org/support/forum/requests-and-feedback">Feedback</a>		</li></ul></div>		</li>
+		<li id="wp-admin-bar-site-name" class="menupop"><a class="ab-item"  aria-haspopup="true" href="http://creative_studio.home/wp-admin/">Creative Studio</a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-site-name-default" class="ab-submenu">
+		<li id="wp-admin-bar-dashboard"><a class="ab-item"  href="http://creative_studio.home/wp-admin/">Dashboard</a>		</li></ul><ul id="wp-admin-bar-appearance" class="ab-submenu">
+		<li id="wp-admin-bar-themes"><a class="ab-item"  href="http://creative_studio.home/wp-admin/themes.php">Themes</a>		</li>
+		<li id="wp-admin-bar-customize" class="hide-if-no-customize"><a class="ab-item"  href="http://creative_studio.home/wp-admin/customize.php?url=http%3A%2F%2Fcreative_studio.home%2F">Customize</a>		</li>
+		<li id="wp-admin-bar-widgets"><a class="ab-item"  href="http://creative_studio.home/wp-admin/widgets.php">Widgets</a>		</li>
+		<li id="wp-admin-bar-menus"><a class="ab-item"  href="http://creative_studio.home/wp-admin/nav-menus.php">Menus</a>		</li></ul></div>		</li>
+		<li id="wp-admin-bar-updates"><a class="ab-item"  href="http://creative_studio.home/wp-admin/update-core.php" title="1 Plugin Update"><span class="ab-icon"></span><span class="ab-label">1</span><span class="screen-reader-text">1 Plugin Update</span></a>		</li>
+		<li id="wp-admin-bar-comments"><a class="ab-item"  href="http://creative_studio.home/wp-admin/edit-comments.php" title="0 comments awaiting moderation"><span class="ab-icon"></span><span id="ab-awaiting-mod" class="ab-label awaiting-mod pending-count count-0">0</span></a>		</li>
+		<li id="wp-admin-bar-new-content" class="menupop"><a class="ab-item"  aria-haspopup="true" href="http://creative_studio.home/wp-admin/post-new.php" title="Add New"><span class="ab-icon"></span><span class="ab-label">New</span></a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-new-content-default" class="ab-submenu">
+		<li id="wp-admin-bar-new-post"><a class="ab-item"  href="http://creative_studio.home/wp-admin/post-new.php">Post</a>		</li>
+		<li id="wp-admin-bar-new-media"><a class="ab-item"  href="http://creative_studio.home/wp-admin/media-new.php">Media</a>		</li>
+		<li id="wp-admin-bar-new-page"><a class="ab-item"  href="http://creative_studio.home/wp-admin/post-new.php?post_type=page">Page</a>		</li>
+		<li id="wp-admin-bar-new-afisha"><a class="ab-item"  href="http://creative_studio.home/wp-admin/post-new.php?post_type=afisha">Афіші</a>		</li>
+		<li id="wp-admin-bar-new-user"><a class="ab-item"  href="http://creative_studio.home/wp-admin/user-new.php">User</a>		</li></ul></div>		</li>
+		<li id="wp-admin-bar-edit"><a class="ab-item"  href="http://creative_studio.home/wp-admin/post.php?post=44&#038;action=edit">Edit Page</a>		</li></ul><ul id="wp-admin-bar-top-secondary" class="ab-top-secondary ab-top-menu">
+		<li id="wp-admin-bar-search" class="admin-bar-search"><div class="ab-item ab-empty-item" tabindex="-1"><form action="http://creative_studio.home/" method="get" id="adminbarsearch"><input class="adminbar-input" name="s" id="adminbar-search" type="text" value="" maxlength="150" /><input type="submit" class="adminbar-button" value="Search"/></form></div>		</li>
+		<li id="wp-admin-bar-my-account" class="menupop with-avatar"><a class="ab-item"  aria-haspopup="true" href="http://creative_studio.home/wp-admin/profile.php" title="My Account">Howdy, comanda_GH<img alt='' src='http://0.gravatar.com/avatar/65100f9e637e09a616b3181b233bed7a?s=26&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D26&amp;r=G' class='avatar avatar-26 photo' height='26' width='26' /></a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-user-actions" class="ab-submenu">
+		<li id="wp-admin-bar-user-info"><a class="ab-item" tabindex="-1" href="http://creative_studio.home/wp-admin/profile.php"><img alt='' src='http://0.gravatar.com/avatar/65100f9e637e09a616b3181b233bed7a?s=64&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D64&amp;r=G' class='avatar avatar-64 photo' height='64' width='64' /><span class='display-name'>comanda_GH</span></a>		</li>
+		<li id="wp-admin-bar-edit-profile"><a class="ab-item"  href="http://creative_studio.home/wp-admin/profile.php">Edit My Profile</a>		</li>
+		<li id="wp-admin-bar-logout"><a class="ab-item"  href="http://creative_studio.home/wp-login.php?action=logout&#038;_wpnonce=d29755c0f1">Log Out</a>		</li></ul></div>		</li></ul>			</div>
+						<a class="screen-reader-shortcut" href="http://creative_studio.home/wp-login.php?action=logout&#038;_wpnonce=d29755c0f1">Log Out</a>
+					</div>
+
+		</body>
+</html>

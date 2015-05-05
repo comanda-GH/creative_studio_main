@@ -21,13 +21,24 @@
     </div>
     <div class="gallery-wrap">
         <div class="gallerys">
-                <?php
+
+            <?php
                     the_post();
                     the_content();
                 ?>
-        </div>
-    </div>
 
+                <?php echo do_shortcode('[carousel-horizontal-posts-content-slider]'); ?>
+
+        </div>
+
+        <?php echo do_shortcode('[carousel-horizontal-posts-content-slider]'); ?>
+    </div>
+   <!-- <div class="custom">
+        <?php
+/*        if ( function_exists('dynamic_sidebar') )
+            dynamic_sidebar('homepage-sidebar');
+        */?>
+    </div>-->
 </main>
 <!--footer-->
 <?php get_footer();?>
